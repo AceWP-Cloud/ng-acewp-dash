@@ -9,7 +9,6 @@ import {
 import { catchError, Observable, throwError } from 'rxjs';
 import { AuthService } from 'app/core/auth/auth.service';
 import { AuthUtils } from 'app/core/auth/auth.utils';
-import { directus } from 'app/services/directus';
 
 @Injectable()
 export class AuthInterceptor implements HttpInterceptor {

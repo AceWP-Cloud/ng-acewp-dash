@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  directusBaseUrl: '',
+  directusBaseUrl: 'https://cms.server.acewp.cloud',
 };
