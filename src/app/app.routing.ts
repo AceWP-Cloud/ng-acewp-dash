@@ -116,6 +116,13 @@ export const appRoutes: Route[] = [
                         (m) => m.ExampleModule
                     ),
             },
+            {
+              path: 'website',
+              loadChildren: () =>
+                  import('app/modules/admin/websites/websites.module').then(
+                      (m) => m.WebsitesModule
+                  ),
+          },
         ],
     },
 
