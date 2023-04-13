@@ -1,11 +1,4 @@
 {
   "schemaVersion": 2,
-  "dockerfileLines": [
-    "FROM node:16.17.0-bullseye-slim",
-    "WORKDIR /usr/src/app",
-    "COPY . .",
-    "RUN npm install && npm cache clean --force",
-    "EXPOSE 4200",
-    "CMD [ \"npm\", \"start\" ]"
-  ]
+  "dockerfile": "./Dockerfile"
 }
